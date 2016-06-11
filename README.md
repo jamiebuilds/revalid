@@ -332,7 +332,7 @@ should be used to describe the `regex`.
 { type: 'pattern', label: 'containsNumbers', pattern: /[0-9]/, value: 'abc' }
 ```
 
-##### `equalTo(other)`
+##### `equalTo(other) => validator`
 
 Creates a validator that passes when a value is strictly equal `===` to
 `other`.
@@ -343,7 +343,7 @@ Creates a validator that passes when a value is strictly equal `===` to
 { type: 'equalTo', other: 'foo', value: 'bar' }
 ```
 
-##### `oneOf(array)`
+##### `oneOf(array) => validator`
 
 Creates a validator that passes when a value is equal to another one of the
 values in `array` (uses `indexOf`).
@@ -354,7 +354,7 @@ values in `array` (uses `indexOf`).
 { type: 'oneOf', values: [1, 2, 3], value: 4 }
 ```
 
-##### `matchesField(fieldName)`
+##### `matchesField(fieldName) => validator`
 
 Creates a validator that passes when a value is equal to the `fieldName`
 field's value (Useful for email or password confirmation).
