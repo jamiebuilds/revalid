@@ -2,6 +2,17 @@
 
 Composable validators
 
+---
+
+**Table of Contents:**
+[**Install**](#install) ·
+[**Example**](#example) ·
+[**How it works**](#how-it-works) ·
+[**API**](#api) ·
+[**Validators**](#validators)
+
+---
+
 ## Install
 
 ```sh
