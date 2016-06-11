@@ -2,7 +2,7 @@
   "name": "revalid",
   "version": "1.0.0",
   "description": "Composable validators",
-  "main": "lib/index.js",
+  "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
   "license": "MIT",
   "devDependencies": {
