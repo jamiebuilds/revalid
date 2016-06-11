@@ -1,6 +1,6 @@
 {
   "name": "revalid",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Composable validators",
   "main": "index.js",
   "author": "James Kyle <me@thejameskyle.com>",
