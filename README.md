@@ -25,7 +25,7 @@ $ npm install --save revalid
 const {
   composeValidators,
   combineValidators,
-  required, minLength, maxLength, pattern, matchesField
+  minLength, maxLength, pattern, matchesField
 } = require('revalid');
 
 const containsLetters = pattern(/[a-zA-Z]/, 'letters');
