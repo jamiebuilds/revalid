@@ -74,7 +74,7 @@ optionalFirstName(undefined) // >> false
 optionalFirstName(null) // >> false
 optionalFirstName("") // >> false
 optionalFirstName("x") // >> { type: 'minLength', minLength: 2, value: 'x' }
-optionalFirstName("xyz") // >> false
+optionalFirstName("xyz") // >> true
 ```
 
 > Note: There is no `required`, validators are required by default.
